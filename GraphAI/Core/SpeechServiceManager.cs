@@ -15,7 +15,7 @@ namespace GraphAI.Core
         public SpeechServiceManager()
         {
             this.audioConfig = AudioConfig.FromDefaultMicrophoneInput();
-            this.speechConfig = SpeechConfig.FromSubscription("e12f372125984006bda86124ac8b0252", "eastus");
+            this.speechConfig = SpeechConfig.FromSubscription("<add speechserviceId>", "<add location>");
         }
 
         public async Task<string> CaptureAudioFromMicrophone()
